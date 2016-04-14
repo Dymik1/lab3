@@ -4,6 +4,8 @@
 
 using namespace std;
 
+enum gender {male, female};
+
 class Slav
 {
 private:

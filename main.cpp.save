@@ -156,3 +156,4 @@ void showMeAdapterSizes(queue <Slav *> queue, stack <Slav *> stack)
 		Slav::counter());
 
 }
+
