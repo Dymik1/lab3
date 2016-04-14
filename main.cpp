@@ -27,11 +27,10 @@ void adapters(Slav *, int);
 
 int main(int argc, char const *argv[])
 {
-	//int n = 2 * atoi(argv[1]);
-	int n=2;
+	int n = 2 * atoi(argv[1]);
 	Slav *slavs = new Slav[n];
 	cout << "# Generated Slavs" << endl;
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i<n ; ++i)
 		cout << slavs[i].description() << endl;
 
 	containers(slavs, n);
